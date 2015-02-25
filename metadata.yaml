@@ -1,0 +1,13 @@
+name: torch
+summary: <Fill in summary here>
+maintainer: root <root@onevm-133.lal.in2p3.fr>
+description: |
+  <Multi-line description here>
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
+  - misc
+subordinate: false
+provides:
+  software:
+    interface: lua
