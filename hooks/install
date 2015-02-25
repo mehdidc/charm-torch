@@ -1,2 +1,3 @@
-#!/usr/bin/bash
-juju-log "installing..."
+#!/bin/bash
+curl -s https://raw.githubusercontent.com/mehdidc/torch-install/master/install-all | bash
+exit 0
